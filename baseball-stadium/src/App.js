@@ -12,11 +12,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Scoreboard</h1>
+        <h1>At-Bat</h1>
       </header>
       <section>
         <Display balls={balls} strikes={strikes} />
-        <Dashboard setStrikes={setStrikes} setBalls={setBalls} />
+        <Dashboard balls={balls} strikes={strikes} setStrikes={setStrikes} setBalls={setBalls} />
       </section>
     </div>
   );
